@@ -2,52 +2,6 @@
   "buildCommand": "pip install -r requirements.txt",
   "outputDirectory": "api",
   "framework": "python",
-  "env": {
-    "SUPABASE_URL": {
-      "description": "Supabase project URL",
-      "required": true
-    },
-    "SUPABASE_KEY": {
-      "description": "Supabase service role key",
-      "required": true
-    },
-    "GOOGLE_MAPS_API_KEY": {
-      "description": "Google Maps API key for Routes API",
-      "required": false
-    },
-    "HERE_API_KEY": {
-      "description": "HERE Maps Transit API key (fallback)",
-      "required": false
-    },
-    "TOMTOM_API_KEY": {
-      "description": "TomTom Traffic API key",
-      "required": false
-    },
-    "OPENWEATHER_API_KEY": {
-      "description": "OpenWeatherMap API key for weather data",
-      "required": true
-    },
-    "SENTRY_DSN": {
-      "description": "Sentry DSN for error tracking",
-      "required": false
-    },
-    "ONESIGNAL_API_KEY": {
-      "description": "OneSignal API key for push notifications",
-      "required": false
-    },
-    "ONESIGNAL_APP_ID": {
-      "description": "OneSignal App ID",
-      "required": false
-    },
-    "ML_MODEL_PATH": {
-      "description": "Path to trained ML model (pickle/joblib)",
-      "required": false
-    },
-    "GTFS_REALTIME_URL": {
-      "description": "GTFS-Realtime feed URL for fallback",
-      "required": false
-    }
-  },
   "functions": {
     "api/**/*.py": {
       "memory": 1024,
