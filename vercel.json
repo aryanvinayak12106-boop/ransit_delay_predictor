@@ -2,9 +2,6 @@
   "buildCommand": "pip install -r requirements.txt",
   "outputDirectory": "api",
   "framework": "python",
-  "python": {
-    "version": "3.11"
-  },
   "env": {
     "SUPABASE_URL": {
       "description": "Supabase project URL",
