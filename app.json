@@ -1,0 +1,32 @@
+{
+  "name": "transit_delay_predictor",
+  "displayName": "Transit Delay Predictor",
+  "description": "ML-powered real-time transport delay predictions",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "repository": "https://github.com/yourusername/transit_delay_predictor",
+  "features": {
+    "maps": true,
+    "location": true,
+    "notifications": true,
+    "offline": false,
+    "ml_predictions": true,
+    "crowdsourcing": true,
+    "user_accounts": false,
+    "dark_mode": true
+  },
+  "supported_platforms": ["android", "ios"],
+  "min_sdk": {
+    "android": 21,
+    "ios": 11.0
+  },
+  "dependencies": {
+    "flutter": "3.0.0",
+    "supabase_flutter": "1.10.0",
+    "google_maps_flutter": "2.7.0",
+    "provider": "6.0.0",
+    "geolocator": "9.0.0",
+    "http": "1.1.0",
+    "flutter_local_notifications": "15.1.0"
+  }
+}
