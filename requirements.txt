@@ -32,7 +32,6 @@ protobuf==4.25.1
 
 # Async & Concurrency
 aiofiles==23.2.1
-asyncio-contextmanager==1.0.0
 
 # Error Tracking & Monitoring
 sentry-sdk==1.38.0
